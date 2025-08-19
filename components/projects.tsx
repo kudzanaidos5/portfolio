@@ -20,6 +20,8 @@ export default function Projects() {
       description:
         "Developed a system capable of tracking the assets which belong to HIT using the Laravel framework. The system was able to tag assets using QR codes, facilitate the transfer of ownership of assets between staff members and schedule maintenance plans for assets.",
       image: "/hats-logo.png",
+      imageFit: "contain" as const,
+      imageBg: "bg-white",
       technologies: ["Laravel", "PHP", "MySQL", "QR Code", "JavaScript"],
       demoLink: "https://hit-asset-tracking.vercel.app",
       codeLink: "https://github.com/kudzanaidos5/hats",
@@ -91,14 +93,17 @@ export default function Projects() {
               {projects.map((project, index) => (
                 <div key={index} className="w-full flex-shrink-0 px-4">
                   <Card3d className="bg-black/50 border border-white/10 overflow-hidden backdrop-blur-sm rounded-xl">
-                    <div className="relative h-64 md:h-80">
+                    <div className={`relative h-64 md:h-80 ${project.imageBg ?? ""}`}>
                       <Image
                         src={project.image || "/placeholder.svg"}
                         alt={project.title}
                         fill
-                        className="object-cover"
+                        className={project.imageFit === "contain" ? "object-contain p-6" : "object-cover"}
+                        priority={index === 0}
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                      {project.imageFit !== "contain" && (
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+                      )}
                     </div>
                     <CardContent className="p-6">
                       <h3 className="text-2xl font-semibold text-white mb-3">{project.title}</h3>
