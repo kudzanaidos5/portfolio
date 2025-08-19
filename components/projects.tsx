@@ -22,7 +22,7 @@ export default function Projects() {
       image: "/placeholder.svg?height=400&width=600",
       technologies: ["Laravel", "PHP", "MySQL", "QR Code", "JavaScript"],
       demoLink: "https://hit-asset-tracking.vercel.app",
-      codeLink: "https://github.com/kudzanaidos5/hit-asset-tracking",
+      codeLink: "https://github.com/kudzanaidos5/hats",
     },
     {
       title: "Anti-Money Laundering System",
