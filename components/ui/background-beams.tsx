@@ -92,7 +92,7 @@ export const BackgroundBeams = ({ children }: { children?: React.ReactNode }) =>
 
   return (
     <div className="h-full w-full">
-      <canvas ref={canvasRef} className="fixed inset-0 z-0 h-full w-full bg-black opacity-80" />
+      <canvas ref={canvasRef} className="fixed inset-0 z-0 h-full w-full bg-black opacity-80 pointer-events-none" />
       {children}
     </div>
   )

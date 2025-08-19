@@ -39,9 +39,11 @@ export default function Projects() {
       title: "Portfolio Website",
       description:
         "A personal portfolio website built with Next.js and Tailwind CSS to showcase my projects and skills. Features animations, responsive design, and contact form.",
-      image: "/placeholder.svg?height=400&width=600",
+        image: "/portfolio-logo.png",
+        imageFit: "contain" as const,
+        imageBg: "bg-white",
       technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-      demoLink: "https://kudzanai-portfolio.vercel.app",
+      demoLink: "https://kudzys-portfolio.vercel.app",
       codeLink: "https://github.com/kudzanaidos5/portfolio",
     },
   ]
