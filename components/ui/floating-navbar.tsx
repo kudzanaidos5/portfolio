@@ -77,7 +77,7 @@ export const FloatingNavbar = ({ navItems }: FloatingNavbarProps) => {
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: -100, opacity: 0 }}
-          className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50"
+          className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 pointer-events-none"
         >
           
         </motion.div>
