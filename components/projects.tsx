@@ -19,7 +19,7 @@ export default function Projects() {
       title: "HATS (HIT Asset Tracking System)",
       description:
         "Developed a system capable of tracking the assets which belong to HIT using the Laravel framework. The system was able to tag assets using QR codes, facilitate the transfer of ownership of assets between staff members and schedule maintenance plans for assets.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/hats-logo.png",
       technologies: ["Laravel", "PHP", "MySQL", "QR Code", "JavaScript"],
       demoLink: "https://hit-asset-tracking.vercel.app",
       codeLink: "https://github.com/kudzanaidos5/hats",
