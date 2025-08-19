@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Mail, Phone, MapPin, Send, Loader2, CheckCircle, AlertCircle, ExternalLink } from "lucide-react"
+import { toast } from "@/components/ui/use-toast"
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -83,6 +84,12 @@ export default function Contact() {
       setSubmitMessage(result.message || "Message sent successfully!")
       setFormData({ name: "", email: "", subject: "", message: "" })
       setIsSubmitted(true)
+
+      // Success toast
+      toast({
+        title: "Message sent!",
+        description: result.message || "Thanks for reaching out. I'll get back to you soon.",
+      })
 
       // Reset success state after 5 seconds
       setTimeout(() => {

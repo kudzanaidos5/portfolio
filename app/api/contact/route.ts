@@ -1,5 +1,8 @@
 import { type NextRequest, NextResponse } from "next/server"
 
+// Ensure this route runs on the Node.js runtime for email SDK compatibility
+export const runtime = "nodejs"
+
 function escapeHtml(input: string): string {
   return input
     .replace(/&/g, "&amp;")
