@@ -121,15 +121,15 @@ export default function Projects() {
                         ))}
                       </div>
                     </CardContent>
-                    <CardFooter className="px-6 pb-6 pt-0 flex gap-4">
-                      <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
-                        <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+                    <CardFooter className="px-6 pb-6 pt-0 flex flex-col sm:flex-row gap-3 sm:gap-4 items-stretch sm:items-center">
+                      <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                        <Button className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white">
                           <ExternalLink className="mr-2 h-4 w-4" />
                           Live Demo
                         </Button>
                       </a>
-                      <a href={project.codeLink} target="_blank" rel="noopener noreferrer">
-                        <Button variant="outline" className="text-white border-blue-500 hover:bg-blue-500/20">
+                      <a href={project.codeLink} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                        <Button variant="outline" className="w-full sm:w-auto text-white border-blue-500 hover:bg-blue-500/20">
                           <Github className="mr-2 h-4 w-4" />
                           Source Code
                         </Button>
