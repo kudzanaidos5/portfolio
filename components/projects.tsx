@@ -30,7 +30,9 @@ export default function Projects() {
       title: "Anti-Money Laundering System",
       description:
         "A system to help financial institutions to easily pick-up, prevent and control money laundering activities. It monitors financial transactions in real time, identify suspicious activities and alert the enforcement in real time to potential fraudulent activities.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/aml_logo.png",
+      imageFit: "contain" as const,
+      imageBg: "bg-white",
       technologies: ["Python", "Machine Learning", "Database", "Real-time Monitoring", "Security"],
       demoLink: "https://aml-system-demo.vercel.app",
       codeLink: "https://github.com/kudzanaidos5/aml-system",
