@@ -121,7 +121,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6"
           >
-            <AnimatedGradientText>Kudzanai Denzel Dhospani</AnimatedGradientText>
+            <AnimatedGradientText>Kudzanai Dhospani</AnimatedGradientText>
           </motion.h1>
 
           <motion.div
