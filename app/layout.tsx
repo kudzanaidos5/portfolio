@@ -6,6 +6,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Kudzanai Dhospani | Portfolio",
   description: "Portfolio showcasing projects, skills, and experience of Kudzanai Denzel Dhospani.",
+  icons: {
+    icon: [{ url: "/favicon.ico", sizes: "any" }],
+    shortcut: ["/favicon.ico"],
+  },
 };
 
 export default function RootLayout({
@@ -16,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="shortcut icon" href="/favicon.ico" />
         <style>{`
 html {
   font-family: ${GeistSans.style.fontFamily};
