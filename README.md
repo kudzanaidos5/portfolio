@@ -74,8 +74,8 @@ npm run start
 ---
 
 ## 📬 Contact
-Crafted by **Kudzanai Denzel Dhospani**  
-[LinkedIn](https://www.linkedin.com/) • [GitHub](https://github.com/) • [Email](mailto:hello@example.com)
+Crafted by **Kudzanai Dhospani**  
+[LinkedIn](https://www.linkedin.com/kudzanai-dhospani) • [GitHub](https://github.com/kudzanaidso5) • [Email](mailto:kudzanaidos5@gmail.com)
 
 > Have feedback or want to collaborate? Open an issue or drop a message.
 
