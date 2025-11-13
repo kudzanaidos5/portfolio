@@ -12,15 +12,15 @@ import { toast } from "@/components/ui/use-toast"
 
 export default function Hero() {
   const words = [
-    { text: "Computer" },
-    { text: "Science" },
-    { text: "Student" },
-    { text: "Java" },
-    { text: "Developer" },
-    { text: "Python" },
-    { text: "Developer" },
-    { text: "Web" },
-    { text: "Developer" },
+    { text: "Computer Science Student" },
+    // { text: "Science" },
+    // { text: "Student" },
+    { text: "Java Developer" },
+    // { text: "Developer" },
+    { text: "Python Developer" },
+    //  
+    { text: "Web Developer" },
+    // { text: "Developer" },
   ]
 
   // Only show particles on desktop
