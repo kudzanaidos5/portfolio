@@ -23,6 +23,10 @@
         {
           "name": "HTML/CSS",
           "icon": "SiHtml5"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "SiTailwindcss"
         }
       ]
     },

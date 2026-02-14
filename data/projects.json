@@ -1,53 +1,69 @@
 [
-    {
-        "id": "1",
-        "title": "HATS (HIT Asset Tracking System)",
-        "description": "Developed a system capable of tracking the assets which belong to HIT using the Laravel framework. The system was able to tag assets using QR codes, facilitate the transfer of ownership of assets between staff members and schedule maintenance plans for assets.",
-        "image": "/hats-logo.png",
-        "imageFit": "contain",
-        "imageBg": "bg-white",
-        "technologies": [
-            "Laravel",
-            "PHP",
-            "MySQL",
-            "QR Code",
-            "JavaScript"
-        ],
-        "demoLink": "https://hit-asset-tracking.vercel.app",
-        "codeLink": "https://github.com/kudzanaidos5/hats"
-    },
-    {
-        "id": "2",
-        "title": "Anti-Money Laundering System",
-        "description": "A system to help financial institutions to easily pick-up, prevent and control money laundering activities. It monitors financial transactions in real time, identify suspicious activities and alert the enforcement in real time to potential fraudulent activities.",
-        "image": "/aml_logo.png",
-        "imageFit": "contain",
-        "imageBg": "bg-white",
-        "technologies": [
-            "Python",
-            "Machine Learning",
-            "Database",
-            "Real-time Monitoring",
-            "Security"
-        ],
-        "demoLink": "https://aml-system-demo.vercel.app",
-        "codeLink": "https://github.com/kudzanaidos5/aml-system"
-    },
-    {
-        "id": "3",
-        "title": "Portfolio Website",
-        "description": "A personal portfolio website built with Next.js and Tailwind CSS to showcase my projects and skills. Features animations, responsive design, and contact form.",
-        "image": "/portfolio-logo.png",
-        "imageFit": "contain",
-        "imageBg": "bg-black",
-        "technologies": [
-            "Next.js",
-            "React",
-            "TypeScript",
-            "Tailwind CSS",
-            "Framer Motion"
-        ],
-        "demoLink": "https://kudzys-portfolio.vercel.app",
-        "codeLink": "https://github.com/kudzanaidos5/portfolio"
-    }
+  {
+    "id": "1",
+    "title": "HATS (HIT Asset Tracking System)",
+    "description": "Developed a system capable of tracking the assets which belong to HIT using the Laravel framework. The system was able to tag assets using QR codes, facilitate the transfer of ownership of assets between staff members and schedule maintenance plans for assets.",
+    "image": "/hats-logo.png",
+    "imageFit": "contain",
+    "imageBg": "bg-white",
+    "technologies": [
+      "Laravel",
+      "PHP",
+      "MySQL",
+      "QR Code",
+      "JavaScript"
+    ],
+    "demoLink": "https://hit-asset-tracking.vercel.app",
+    "codeLink": "https://github.com/kudzanaidos5/hats"
+  },
+  {
+    "id": "2",
+    "title": "Anti-Money Laundering System",
+    "description": "A system to help financial institutions to easily pick-up, prevent and control money laundering activities. It monitors financial transactions in real time, identify suspicious activities and alert the enforcement in real time to potential fraudulent activities.",
+    "image": "/aml_logo.png",
+    "imageFit": "contain",
+    "imageBg": "bg-white",
+    "technologies": [
+      "Python",
+      "Machine Learning",
+      "Database",
+      "Real-time Monitoring",
+      "Security"
+    ],
+    "demoLink": "https://aml-system-demo.vercel.app",
+    "codeLink": "https://github.com/kudzanaidos5/aml-system"
+  },
+  {
+    "id": "3",
+    "title": "Portfolio Website",
+    "description": "A personal portfolio website built with Next.js and Tailwind CSS to showcase my projects and skills. Features animations, responsive design, and contact form.",
+    "image": "/portfolio-logo.png",
+    "imageFit": "contain",
+    "imageBg": "bg-black",
+    "technologies": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion"
+    ],
+    "demoLink": "https://kudzys-portfolio.vercel.app",
+    "codeLink": "https://github.com/kudzanaidos5/portfolio"
+  },
+  {
+    "id": "1771074233930",
+    "title": "Gabriel Import Solutions Website",
+    "description": "A website for Gabriel Import solutions",
+    "image": "/GIS_logo.png",
+    "imageFit": "contain",
+    "imageBg": "bg-white",
+    "technologies": [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "demoLink": "https://gabrielimportsolutions.netlify.app",
+    "codeLink": "https://github.com/kudzanaidos5/Gabriel-Import-Solutions"
+  }
 ]
