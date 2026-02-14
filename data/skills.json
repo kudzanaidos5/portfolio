@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "id": "languages",
+      "label": "Languages",
+      "skills": [
+        {
+          "name": "Java",
+          "icon": "FileCode"
+        },
+        {
+          "name": "Python",
+          "icon": "SiPython"
+        },
+        {
+          "name": "C#",
+          "icon": "Code2"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "SiJavascript"
+        },
+        {
+          "name": "HTML/CSS",
+          "icon": "SiHtml5"
+        }
+      ]
+    },
+    {
+      "id": "frameworks",
+      "label": "Frameworks",
+      "skills": [
+        {
+          "name": "React",
+          "icon": "SiReact"
+        },
+        {
+          "name": "Angular",
+          "icon": "SiAngular"
+        },
+        {
+          "name": "Node.js",
+          "icon": "SiNodedotjs"
+        },
+        {
+          "name": "Django",
+          "icon": "SiDjango"
+        },
+        {
+          "name": "Laravel",
+          "icon": "SiLaravel"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "label": "Tools & Others",
+      "skills": [
+        {
+          "name": "Git",
+          "icon": "SiGit"
+        },
+        {
+          "name": "Database Management",
+          "icon": "Database"
+        },
+        {
+          "name": "Networking",
+          "icon": "Network"
+        },
+        {
+          "name": "Object-Oriented Programming",
+          "icon": "FileCode"
+        },
+        {
+          "name": "Problem Solving",
+          "icon": "Lightbulb"
+        }
+      ]
+    }
+  ]
+}
