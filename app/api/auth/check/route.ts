@@ -1,18 +1,17 @@
-import { NextResponse } from "next/server"
-import { cookies } from "next/headers"
+import { NextRequest, NextResponse } from "next/server"
 
-export async function GET() {
-    try {
-        const cookieStore = await cookies()
-        const token = cookieStore.get("admin_token")
+export const runtime = "edge"
 
-        if (token) {
-            return NextResponse.json({ authenticated: true })
-        } else {
-            return NextResponse.json({ authenticated: false }, { status: 401 })
-        }
-    } catch (error) {
-        return NextResponse.json({ authenticated: false }, { status: 401 })
+export async function GET(request: NextRequest) {
+  try {
+    const token = request.cookies.get("admin_token")
+
+    if (token) {
+      return NextResponse.json({ authenticated: true })
     }
-}
 
+    return NextResponse.json({ authenticated: false }, { status: 401 })
+  } catch (error) {
+    return NextResponse.json({ authenticated: false }, { status: 401 })
+  }
+}

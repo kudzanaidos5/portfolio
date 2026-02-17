@@ -1,15 +1,22 @@
-import { NextResponse } from "next/server"
-import { cookies } from "next/headers"
+import { NextRequest, NextResponse } from "next/server"
 
-export async function POST() {
-    try {
-        const cookieStore = await cookies()
-        cookieStore.delete("admin_token")
+export const runtime = "edge"
 
-        return NextResponse.json({ success: true, message: "Logged out successfully" })
-    } catch (error) {
-        console.error("Logout error:", error)
-        return NextResponse.json({ error: "Logout failed" }, { status: 500 })
-    }
+export async function POST(request: NextRequest) {
+  try {
+    const response = NextResponse.json({
+      success: true,
+      message: "Logged out successfully",
+    })
+
+    response.cookies.set("admin_token", "", {
+      path: "/",
+      maxAge: 0,
+    })
+
+    return response
+  } catch (error) {
+    console.error("Logout error:", error)
+    return NextResponse.json({ error: "Logout failed" }, { status: 500 })
+  }
 }
-
